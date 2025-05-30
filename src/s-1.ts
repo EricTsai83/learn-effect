@@ -1,6 +1,3 @@
-// eslint-disable
-// @ts-nocheck
-
 import { Effect } from "effect"
 
 // Define a User type

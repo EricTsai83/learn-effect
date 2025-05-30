@@ -1,6 +1,3 @@
-// eslint-disable
-// @ts-nocheck
-
 import { Effect } from "effect"
 
 const parse = (input: string) =>
@@ -22,4 +19,4 @@ const parse2 = (input: string) =>
 
 //      ┌─── Effect<any, Error, never>
 //      ▼
-const _program = parse2("")
+const _program2 = parse2("")

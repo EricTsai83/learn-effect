@@ -1,9 +1,7 @@
-// eslint-disable
-// @ts-nocheck
-
 import { Effect } from "effect"
 import * as NodeFS from "node:fs"
 
+// Creates an Effect from a callback-based asynchronous function.
 const readFile = (filename: string) =>
   Effect.async<Buffer, Error>((resume) => {
     NodeFS.readFile(filename, (error, data) => {

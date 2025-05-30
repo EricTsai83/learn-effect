@@ -1,5 +1,3 @@
-// eslint-disable
-// @ts-nocheck
 import { Effect } from "effect"
 
 const log = (message: string) =>
